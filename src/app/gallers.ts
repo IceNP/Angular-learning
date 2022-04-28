@@ -1,0 +1,31 @@
+export const gallers = [
+    {
+        galimg:'../assets/img/pf01.jpg'
+    },
+    {
+        galimg:'../assets/img/pf02.jpg'
+    },
+    {
+        galimg:'../assets/img/pf03.jpg'
+    }
+    ,
+    {
+        galimg:'../assets/img/pf04.jpg'
+    }
+    ,
+    {
+        galimg:'../assets/img/pf05.jpg'
+    }
+    ,
+    {
+        galimg:'../assets/img/pf06.jpg'
+    }
+    ,
+    {
+        galimg:'../assets/img/pf07.jpg'
+    }
+    ,
+    {
+        galimg:'../assets/img/pf08.jpg'
+    }
+]

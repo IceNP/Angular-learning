@@ -1,4 +1,4 @@
-<div class="resumeheader">
+<div class="galleryheader">
     <br><br><br><br><H1>My Gallery</H1><br>
   </div>
 
@@ -7,7 +7,13 @@
         <div class="img-container">
             <img src="../assets/img/pf01.jpg" alt="Image1" id = "preview">
             <div class="img-prev text-center">
-                <div class="img-slide active">
+
+                
+                    <div class="img-slide active" *ngFor="let galler of gallers" id = "preview">
+                        <img src="{{ galler.galimg }}" appDemo>
+                    </div>
+
+                <!--<div class="img-slide active">
                     <img src="../assets/img/pf01.jpg" alt="Image1" appDemo>
                 </div>
                 <div class="img-slide">
@@ -30,8 +36,9 @@
                 </div>
                 <div class="img-slide">
                     <img src="../assets/img/pf08.jpg" alt="Image8" appDemo>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
+
 </section>

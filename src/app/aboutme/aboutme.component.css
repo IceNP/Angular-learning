@@ -1,0 +1,38 @@
+.hobbies h1 {
+    text-align: center;
+}
+
+.section_area_grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+/*.section_grid_item2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 5%;
+    margin-left: 30%;
+}*/
+
+
+.section_item_img2 iframe{
+    width: 860px;
+    height: 480px;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.section_item_text2 p {
+    text-align: center;
+    padding-left: 45%;
+}
+
+/*@media only screen and (max-width: 480px) {
+    .section_area_grid2 {
+        grid-template-columns: 1fr;
+    }
+    .section_grid_item2 {
+        padding: 1rem;
+    }
+}*/

@@ -1,0 +1,20 @@
+.video1 {
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(218, 216, 216);*/
+    outline: 5px solid rgb(0, 81, 255);
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 75%;
+}
+
+.video1 iframe {
+    margin-left: 8%;
+}
+
+.video1 h1 {
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(39, 39, 39);
+}
